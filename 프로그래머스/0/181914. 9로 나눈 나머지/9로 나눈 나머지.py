@@ -1,2 +1,5 @@
 def solution(number):
-    return int(number)%9
+    temp=0
+    for i in number:
+        temp+=int(i)
+    return temp%9
